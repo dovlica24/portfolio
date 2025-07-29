@@ -17,7 +17,11 @@
 }
 
 body {
-    background-color: var(--darkBlue2);
+    background: linear-gradient(135deg,#3135a1, #5f3087, #39235c, #252c8a);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: var(--darkBlue2); */
     width: 100%;
      transition: all 0.15s ease-in;
 }
