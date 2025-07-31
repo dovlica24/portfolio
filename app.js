@@ -176,3 +176,24 @@ document.querySelectorAll(".nav-link-mobile").forEach(link => {
 });
 
 
+const projectMenuItem = document.getElementById('projectMenuItem');
+const extendedProjectList = document.querySelector('.project-mobile-menu-list');
+
+
+projectMenuItem.addEventListener('click',()=>{
+
+if(extendedProjectList.style.display ==='none') {
+
+ extendedProjectList.style.display ='block';
+
+}
+
+else {
+     
+extendedProjectList.style.display ='none';
+
+}
+
+   
+})
+
